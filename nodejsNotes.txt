@@ -1,0 +1,40 @@
+when we write 
+console.log("hello node js")
+it will print us => hello node js
+but not written any value so after print it say undefined
+
+
+imp console.log() is not JavaScript part it is mechanism provided by web browsers.
+
+*** fundamentals of nodejs ***
+we can't use import export in nodejs like JavaScript.
+we have to use 
+    module.export={ x:12,y:20}
+and than object to export, 
+for import use
+    const app = require('./app')
+
+
+filter=>  used for array
+const arr = [2,3,4,5]
+ket result = arr.filter((item) =>{
+    return item<=3;
+})
+
+
+
+*** global and core module ***
+
+core module we have to add manual
+global module don't need to add like console
+
+
+*** package.json ***
+it keeps details about code like path,version,auth,if we add some extra package like nodemon then it keep details of it.
+
+to create it just write "npm init"
+
+what if we delete the nodejs module folder?
+if we delete the nodejs module folder then no problem we can download it by npm install then it will give all required dependency in package.json
+we don't need to push the nodejs module folder on github.
+just write node_modules folder name in .gitignore file.

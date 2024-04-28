@@ -1,0 +1,32 @@
+What is Node js?
+
+Node is not a language
+This is a Server Environment.
+Node js is async type.
+Node js can connect with database.
+Code and syntax is very similar to JavaScript.
+But not exactly the same.
+Node js free, open-source.
+Node js use Chrome's V8 engine to execute code.
+
+
+Why do we use Node js?
+
+with the help of node js we can connect to database 
+create the API with help of node js
+mostely used for API
+
+
+History and More =>
+first Release: May 27,2009
+Current Version: 22
+written in : C,C++, JavaScript
+
+
+difference between node js and JavaScript?
+
+JavaScript can not connect to database
+node js can connect to database
+nodejs  run on the server side
+JavaScript is run on the browser
+syntax is same for both
